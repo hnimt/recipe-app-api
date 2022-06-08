@@ -16,3 +16,7 @@ Custom user model:
         - normalize_email: for storing emails consistently
         - create_user
         - create_superuser
+    - AbstractBaseUser:
+        - functionality for auth system
+    - PermissionsMixin:
+        - functionality for the permissions and fields
