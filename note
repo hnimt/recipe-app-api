@@ -42,3 +42,8 @@ Viewsets:
     - map to django models
     - use routers to generates URLs
     - greate for CRUD
+
+Collect static:
+    - gather all static files
+    - python manage.py collectstatic
+    -> put all static files into STATIC_ROOT
