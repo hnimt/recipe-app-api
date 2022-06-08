@@ -20,3 +20,10 @@ Custom user model:
         - functionality for auth system
     - PermissionsMixin:
         - functionality for the permissions and fields
+
+Custom admin:
+    - ordering: changes order items appear
+    - list_display: fiels to appear in list
+    - fieldsets: control layout of page
+    - readonly_fields: fields that is read only
+    - add_fieldsets: fields displayed only on add page
