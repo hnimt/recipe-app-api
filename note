@@ -27,3 +27,8 @@ Custom admin:
     - fieldsets: control layout of page
     - readonly_fields: fields that is read only
     - add_fieldsets: fields displayed only on add page
+
+Docs in DRF:
+    - auto generate docs
+        - drf-spectacular
+    - generates schema
