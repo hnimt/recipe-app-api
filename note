@@ -1,2 +1,18 @@
 run command in container:
     - docker-compose run --rm app sh -c "python manage.py startapp core"
+
+Custom user model:
+    - inherit AbstractBaseUser:
+        - provide features for authentication
+        - doesn't include fields
+    - PermissionsMixin
+        - support Django permission system
+        - includes fields and methods
+    - UserModelManager
+        - manage objects
+        - custom logic for create objects
+            - hash password
+    - BaseUserManager:
+        - normalize_email: for storing emails consistently
+        - create_user
+        - create_superuser
