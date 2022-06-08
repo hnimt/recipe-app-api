@@ -32,3 +32,13 @@ Docs in DRF:
     - auto generate docs
         - drf-spectacular
     - generates schema
+
+APIView:
+    - focuse on http methods
+    - use for non CRUD APIs
+
+Viewsets:
+    - focused arround actions CRUD
+    - map to django models
+    - use routers to generates URLs
+    - greate for CRUD
